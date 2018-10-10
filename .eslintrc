@@ -1,0 +1,17 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6, // enable es2015,
+    "sourceType": "module" // ecma modules vs "script" modules
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "globals": {
+    "document": true,
+    "navigator": true,
+    "window": true,
+    "FancyData": true
+  }
+}
