@@ -1,4 +1,4 @@
-let richCountry = {
+let countryRich = {
   config: {
     action: "random"
   },
@@ -28,4 +28,4 @@ let richCountry = {
   ]
 };
 
-export default richCountry;
+export default countryRich;

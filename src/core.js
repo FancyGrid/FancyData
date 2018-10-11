@@ -23,8 +23,7 @@ import {default as intType} from "./types/int";
 import {default as itLevelType} from "./types/it-level";
 import {default as itPositionType} from "./types/it-position";
 import {default as nameType} from "./types/name";
-import {default as positionType} from "./types/position";
-import {default as richCountryType} from "./types/rich-country";
+import {default as countryRichType} from "./types/country-rich";
 import {default as salaryYearType} from "./types/salary-year";
 import {default as surnameType} from "./types/surname";
 import {default as usaStatesType} from "./types/usa-states";
@@ -69,8 +68,7 @@ FancyData.types = {
   "it-level": itLevelType,
   "it-position": itPositionType,
   name: nameType,
-  position: positionType,
-  "country-rich": richCountryType,
+  "country-rich": countryRichType,
   "salary-year": salaryYearType,
   surname: surnameType,
   "usa-states": usaStatesType
