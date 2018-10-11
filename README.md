@@ -1,15 +1,24 @@
 # FancyData
 
 FancyData - JavaScript Mockup Data Generation Library
+
+## *Install*
+```
+npm install fancy-data
+```
   
 ## *Include*
 ```
 <script src="/dist/bundle.min.js"></script>
 ```
-
+  
+### *CDN*
+```
+<script src="https://cdn.fancygrid.com/fancydata.min.js"></script>
+```
 
 #### *Sample*
-```
+```js
 new FancyData({
   rows: 1000000,
   indexes: ['id', 'name', 'surname', 'country', 'position', 'email', 'age'],

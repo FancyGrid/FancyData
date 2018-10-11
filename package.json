@@ -1,8 +1,7 @@
 {
   "name": "fancy-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript mockup data generation library",
-  "private": true,
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack",
